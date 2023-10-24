@@ -1,0 +1,27 @@
+{
+  "name": "finance-yahoo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "yahoo-finance": "^0.3.8",
+    "yahoo-finance2": "^2.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fancman/finance-yahoo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fancman/finance-yahoo-app/issues"
+  },
+  "homepage": "https://github.com/Fancman/finance-yahoo-app#readme"
+}
