@@ -2,7 +2,7 @@ const express = require("express");
 const yahooAPI = require("./yahoo.js"); // Update the path accordingly
 
 const app = express();
-const port = 3000; // Choose a port for your server
+const port = 3001; // Choose a port for your server
 
 app.use(express.json());
 
