@@ -50,6 +50,9 @@ const yahooAPI = {
 			const results = []
 			for (let symbol of symbols) {
 				const quoteResponse = await yahooFinance.quote(symbol)
+				if (quoteResponse === undefined) {
+					continue
+				}
 				const parsedQuote = yahooAPI.parseSummaryResponse(quoteResponse)
 				results.push(parsedQuote)
 			}
@@ -79,3 +82,6 @@ const yahooAPI = {
 		}
 	},
 }
+
+
+module.exports = yahooAPI;
